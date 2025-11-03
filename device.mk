@@ -1130,3 +1130,4 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 PRODUCT_NO_BIONIC_PAGE_SIZE_MACRO := true
 PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := true
+$(call inherit-product, vendor/lindroid/lindroid.mk)
